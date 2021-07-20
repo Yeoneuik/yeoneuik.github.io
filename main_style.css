@@ -1,4 +1,4 @@
 #waterContainer{
  width:100vh;
-  background: url (water.png) center center fixed
+  background-image: url (water.png) center center fixed;
 }
