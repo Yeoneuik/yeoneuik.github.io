@@ -1,3 +1,33 @@
+/* @font-face 정의 */
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Pretendard-SemiBold";
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+      format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Pretendard-Bold";
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+      format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Pretendard-ExtraBold";
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
+      format("woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+
 /* General Reset */
 body, h1, h2, p, a {
     margin: 0;
@@ -6,24 +36,127 @@ body, h1, h2, p, a {
 }
 
 body {
+    font-family: 'Pretendard-Regular', Arial, sans-serif; /* Pretendard를 기본 폰트로 설정 */
     line-height: 1.6;
+    padding-top: 70px; /* 헤더 높이만큼 여백 */
     color: #333;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background-color: #FFD400;
-    color: white;
+p, a {
+    font-family: 'Pretendard-Regular', Arial, sans-serif;
 }
 
-header .logo a, header .menu a {
+h1, h2, h3 {
+    font-family: 'Pretendard-Bold', Arial, sans-serif;
+    font-weight: bold; /* 강조를 위해 굵게 설정 */
+
+}
+
+h3.title_Experiences{
+    margin-bottom: 0.3em;
+}
+
+/* Header 스타일 */
+header {
+    position: fixed; /* 화면에 고정 */
+    top: 0; /* 화면 상단에 배치 */
+    left: 0; /* 화면 왼쪽에 배치 */
+    width: 100%; /* 화면 너비를 채움 */
+    display: flex; /* 플렉스 박스를 사용하여 정렬 */
+    justify-content: space-between; /* Home은 왼쪽, 메뉴는 오른쪽 */
+    align-items: center; /* 세로 중앙 정렬 */
+    background-color: #FFD400; /* 헤더 배경색 (고정 시 잘 보이도록) */
+    color: white; /* 텍스트 색상 */
+    z-index: 1000; /* 다른 콘텐츠 위에 표시 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 하단 그림자 추가 (선택 사항) */
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    padding:0.1em 0em;
+}
+
+.home-page body, .home-page html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.home-page #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 화면을 채우되 잘리는 부분은 잘림 */
+    z-index: -1; /* 배경으로 보내기 */
+}
+
+.home-page main {
+    position: relative;
+    z-index: 1; /* 콘텐츠가 배경 위에 위치하도록 */
     color: white;
+    text-align: center;
+}
+
+/* index.html에서 배경 제거 */
+.home-page header {
+    background-color: transparent; /* 배경 제거 */
+    box-shadow: none; /* 그림자도 제거 (필요 시) */
+    z-index: 10;
+}
+
+/* Home 로고 */
+header .logo a {
+    font-size: 1em; /* 기본 글자 크기 */
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5em; /* 왼쪽 여백 */
+    transition: transform 0.2s ease, color 0.2s ease; /* 부드러운 크기 변화 */
+    display: inline-flex; /* 플렉스 박스를 사용하여 로고 내부 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+/* 로고 호버 효과 */
+header .logo a:hover {
+    transform: scale(1.2); /* 크기 확대 */
+    color: #FFD700; /* 호버 시 색상 강조 (선택 사항) */
+}
+
+.logo {
+    display: flex; /* 로고 정렬 */
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px; /* 로고 크기 */
+    height: auto; /* 비율 유지 */
+}
+
+/* 메뉴 스타일 */
+header .menu {
+    display: flex; /* 메뉴 항목을 가로로 나열 */
+    flex-direction: row; /* 명시적으로 가로 정렬 */
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    gap: 1em; /* 메뉴 간 간격 */
+    margin-right: 1.5em; /* 오른쪽 여백 */
+}
+
+/* 스크롤 시 헤더 스타일 */
+header.scrolled {
+    background-color: rgba(255, 212, 0, 0.5); /* 약간 투명 */
+    padding: 0em 0em; /* 패딩 축소 */
+}
+
+.home-page header.scrolled {
+    background-color: transparent; /* 배경 제거 */
+    box-shadow: none; /* 그림자도 제거 (필요 시) */
+    padding: 0em 0em; /* 패딩 축소 */
+}
+
+/*header .logo a, header .menu a {
+    color: white;   
     margin-right: 1em;
     text-decoration: none;
-}
+}*/
 
 /* 모든 링크 스타일 초기화 */
 a {
@@ -50,21 +183,30 @@ a:active {
     color: #444; /* 클릭 중 색상 변경 (선택 사항) */
 }
 
-header .menu a:hover {
-    text-decoration: underline;
-}
-
-.menu a {
-    color: #666; /* 일반 링크 색 */
+/* 메뉴 항목 */
+header .menu a {
     text-decoration: none; /* 밑줄 제거 */
-    margin-right: 1em;
-    font-weight: normal; /* 일반 링크는 기본 굵기 */
+    color: #666; /* 기본 텍스트 색상 */
+    font-size: 1em; /* 기본 글자 크기 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    display: flex; /* 플렉스 박스를 사용하여 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 60px; /* 고정된 너비 */
+    height: 50px; /* 고정된 높이 */
+    transition: transform 0.2s ease, color 0.2s ease; /* 부드러운 크기 변화 */
 }
 
-.menu a.active {
-    color: #000; /* 현재 페이지는 검정색 */
-    font-weight: bold; /* 현재 페이지는 굵게 표시 */
-    text-decoration: none;
+/* 현재 페이지 강조 */
+header .menu a.active {
+    font-weight: bold; /* 굵게 표시 */
+    color: #000;
+}
+
+/* 호버 효과 */
+header .menu a:hover {
+    transform: scale(1.2); /* 글자 크기 확대 */
+    color: white; /* 텍스트 색상 변경 */
 }
 
 main {
@@ -93,11 +235,13 @@ main {
     font-size: 1em; /* 글자 크기 */
     margin-bottom: 4em; /* 아래 콘텐츠와 간격 */
     font-weight: bold; /* 글자 굵게 */
-    padding: 0.5em 0.1em; /* 버튼 내부 여백 */
+    padding: 0.5em 1em; /* 버튼 내부 여백 */
     /*border: 1px solid #ddd; /* 테두리 추가 */
     border-radius: 5px; /* 버튼 모서리 둥글게 */
-    /*background-color: #f9f9f9; /* 버튼 배경색 */
+    background-color: #f9f9f9; /* 버튼 배경색 */
     transition: background-color 0.3s ease; /* 호버 시 부드러운 효과 */
+    position: relative; /* 상대 위치로 설정 */
+    left: -1em; /* 왼쪽으로 1em 이동 */
 }
 
 /* Back Button 아이콘 */
@@ -107,8 +251,8 @@ main {
 
 /* 호버 효과 */
 .back-button:hover {
-    /*background-color: #FFEE99; /* 호버 시 배경색 변경 */
-    color: #FFD400; /* 텍스트 색 변경 */
+    background-color: #FFEE99; /* 호버 시 배경색 변경 */
+    /*color: #FFD400; /* 텍스트 색 변경 */
 }
 
 /* work-item 기본 스타일 */
@@ -126,15 +270,39 @@ main {
 }
 
 .work-item img {
-    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    
     width: 100%; /* 부모 요소에 맞게 폭 조정 */
-    aspect-ratio: 16 / 9; /* 원하는 비율 설정 (16:9, 4:3, 1:1 등) */
+    /*aspect-ratio: 16 / 9; /* 원하는 비율 설정 (16:9, 4:3, 1:1 등) */
     object-fit: cover; /* 이미지 비율을 유지하며 크롭 */
     display: block;
 }
 
+/* 이미지 래퍼 스타일 */
+.image-wrapper {
+    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    position: relative; /* 내부 이미지 위치를 기준으로 설정 */
+    width: 100%; /* 부모 크기에 맞춤 */
+    height: 0;
+    padding-top: 56.25%; /* 16:9 비율 유지 */
+    overflow: hidden; /* 확대된 이미지가 부모 영역을 넘어가지 않도록 설정 */
+}
+
+.image-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* 기본 상태에서 부모 크기에 맞게 */
+    height: auto;
+    transition: transform 0.3s ease; /* 확대 효과의 부드러움 설정 */
+}
+
+.work-item:hover .image-wrapper img {
+    transform: translate(-50%, -50%) scale(1.1); /* 중앙 기준으로 확대 */
+}
+
 .container {
-    max-width: 800px; /* 가로 최대 길이 제한 */
+    max-width: 1200px; /* 가로 최대 길이 제한 */
     margin: 0 auto;   /* 중앙 정렬 */
     padding: 0 1em;   /* 좌우 여백 */
 }
@@ -161,16 +329,25 @@ h2 {
 }
 
 .subtitle {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #666;
     margin-bottom: 1em;
     /*text-align: center;
     font-style: italic;*/
 }
 
+#work-detail .subtitle{
+    text-align: center;
+}
+
+.ProjectTitle{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 p {
     line-height: 1.6; /* 가독성을 위한 줄 간격 */
-    margin-bottom: 1em; /* 단락 간격 */
+    /*margin-bottom: 1em; /* 단락 간격 */
     word-wrap: break-word; /* 긴 단어가 줄을 넘지 않도록 */
     text-align: justify; /* 텍스트 양쪽 정렬 */
 }
@@ -189,4 +366,68 @@ p {
     border: 1px solid #FFD400;;
     background-color: #FFD400;
     color: white;
+}
+
+/* Include this in styles.css */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFEE99;
+    color: #333;
+    border: none;
+    border-radius: 10%;
+    font-size: 20px; /* 아이콘 크기 */
+    display: none;
+    align-items: center; /* 중앙 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    cursor: pointer;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);*/
+    display: none;
+    z-index: 1000;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top.show {
+    display: flex; /* Flexbox로 중앙 정렬 */
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: #FFD400;
+}
+
+footer {
+    /*background-color: #FFD400; /* 배경색 */
+    color: #666; /* 밝은 텍스트 색상 */
+    text-align: center; /* 가운데 정렬 */
+    padding: 1.5em 0; /* 위아래 여백 */
+}
+
+.footer-content {
+    max-width: 800px; /* 최대 너비 */
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+.footer-content p {
+    /*margin: 0.5em 0; /* 위아래 간격 */
+    text-align: center;
+}
+
+.social-icons {
+    /*margin: 1em 0; /* 위아래 간격 */
+}
+
+.social-icons a {
+    color: #666; /* 아이콘 색상 */
+    font-size: 1.5em; /* 아이콘 크기 */
+    margin: 0 0.2em; /* 좌우 간격 */
+    transition: color 0.3s ease; /* 색상 변화 효과 */
+}
+
+.social-icons a:hover {
+    color: #FFD400; /* 호버 시 색상 변경 */
 }

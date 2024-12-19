@@ -4,28 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Contact</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font Awesome 아이콘 사용 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html">Home</a>
+            <a href="index.html">
+                <img src="assets/images/logo_bar.svg" alt="Logo" class="logo-img">
+            </a>
         </div>
         <div class="menu">
-            <a href="index.html">About</a>
+            <a href="about.html">About</a>
             <a href="work.html">Works</a>
             <a href="contact.html" class="active">Contact</a>
         </div>
     </header>
     <main>
+        <div class="container">
         <section id="contact">
             <h2>Contact Me</h2>
             <div class="social-links">
                 <a href="https://www.instagram.com/yeoneuik">Instagram</a>
                 <a href="https://www.youtube.com/@yeoneui">YouTube</a>
                 <a href="https://www.linkedin.com/in/yeoneui/">LinkedIn</a>
+                <a href="mailto:yeoneuik@gmail.com">yeoneuik@gmail.com</a>
             </div>
         </section>
+        </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <p>Yeoneui Kim 김연의</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yeoneuik" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@yeoneui" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yeoneui/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>All rights reserved. © <span id="current-year"></span></p>
+        </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
 </body>
 </html>

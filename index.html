@@ -4,39 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Home</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font Awesome 아이콘 사용 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
-<body>
+<body class="home-page">
+    <iframe 
+        id="video-background"
+        src="https://www.youtube.com/embed/g9JVZ7v6piU?autoplay=1&mute=1&loop=1&playlist=g9JVZ7v6piU&vq=hd1080&controls=0&disablekb=1&modestbranding=1&fs=0"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen>
+    </iframe>
     <header>
         <div class="logo">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">
+                <img src="assets/images/logo_bar.svg" alt="Logo" class="logo-img">
+            </a>
         </div>
         <div class="menu">
-            <a href="index.html" class="active">About</a>
+            <a href="about.html">About</a>
             <a href="work.html">Works</a>
             <a href="contact.html">Contact</a>
         </div>
     </header>
     <main>
+        <div class="container">
         <section id="home">
-            <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-photo">
+            
             <h3>"인터랙티브 미디어와 사운드로 즐거움과 따스함을 전하는"</h3>
             <h1>크리에이티브 테크놀로지스트 김연의</h1>
             <h3>"Bringing Joy and Warmth through Interaction & Sound",</h3>
             <h1>Creative Technologist Yeoneui Kim</h1>
             <br>
-            <p>사람의 목소리에 반응하여 상호작용 할 수 있는 보이스 인터랙티브 작품을 창작합니다.<br>
-                인터랙티브 기술을 포함하는 예술, 상업 전시와 다원 예술 공연등에서 창작과 기술감독을 담당해왔습니다.<br>
-                또한 지역주민 대상의 실내, 외 축제들에 시민들이 참여할 수 있는 작품을 전시하여 축제에서 긍정적이고 따뜻한 분위기를 조성하였습니다.<br>
-                보이스 인터랙티브 작품 이외에도 사운드 인터랙티브 프로젝트, 일반적인 프로젝터 투사 등을 포함하는 실시간 인터랙티브 미디어아트 프로젝트들에도 참여하고 있습니다.<br><br>
+            <p>메인화면<br>
             </p>
             <p>
-                I create voice-interactive artworks that respond to and engage with human voices.<br>
-                I have been responsible for creation and technical direction in art projects, commercial exhibitions, and interdisciplinary performances that incorporate interactive technology.<br>
-                Additionally, I have exhibited works at indoor and outdoor festivals aimed at local communities, encouraging citizen participation and fostering a positive and warm atmosphere at these events.<br>
-                Beyond voice-interactive works, I also contribute to real-time interactive media art projects, including sound-interactive installations and general projector-based projections.<br>
+                Main Page<br>
             </p>
         </section>
+    </div>
     </main>
+    
+    <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
 </body>
 </html>

@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Work 1</title>
+    <title>Portfolio - 평화의 메아리 : 잘 살아 보세!</title>
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <!-- Font Awesome 아이콘 사용 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html">Home</a>
+            <a href="../index.html"><img src="../assets/images/logo_bar.svg" alt="Logo" class="logo-img"></a>
         </div>
         <div class="menu">
-            <a href="../index.html">About</a>
+            <a href="../about.html">About</a>
             <a href="../work.html" class="active">Works</a>
             <a href="../contact.html">Contact</a>
         </div>
@@ -27,7 +29,7 @@
             </a>
         <section id="work-detail">
             <p class="subtitle">보이스 인터랙티브 월<br>2024 국가유산 미디어아트 수원화성 신진작가전</p>
-            <h2>평화의 메아리 : 잘 살아 보세!</h2>
+            <h2 class="ProjectTitle">평화의 메아리 : 잘 살아 보세!</h2>
             <img src="../assets/images/work1/main.jpg" alt="Work 1 Main">
             <h3>"사랑의 말로 쌓아올리는 단단한 평화의 성벽"</h3>
             <p>예로부터 성을 축조하는 것은 외세로부터 백성들을 지키기 위함이었습니다. 이는 지역에 대한 나라님들의 관심이자 백성들의 평화로운 삶을 바라는 사랑이었습니다. 누군가에 대한 사랑, 그것은 곧 평화를 부르는 행위였던 것입니다.
@@ -37,5 +39,23 @@
         </section>
     </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <p>Yeoneui Kim 김연의</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yeoneuik" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@yeoneui" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yeoneui/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>All rights reserved. © <span id="current-year"></span></p>
+        </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
 </body>
 </html>
