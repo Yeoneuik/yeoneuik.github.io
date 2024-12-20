@@ -33,6 +33,11 @@ body, h1, h2, p, a {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    text-align: left; /* 기본적으로 왼쪽 정렬 */
+}
+
+h1,h2,h3 #home{
+    text-align: center;
 }
 
 body {
@@ -305,16 +310,18 @@ main {
 
 .image-wrapper img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%; /* 기본 상태에서 부모 크기에 맞게 */
-    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%; /* 부모 요소의 너비를 완전히 채움 */
+    height: 100%; /* 부모 요소의 높이를 완전히 채움 */
+    object-fit: cover; /* 비율을 유지하면서 꽉 채움 */
+    object-position: center; /* 중앙 정렬 */
     transition: transform 0.3s ease; /* 확대 효과의 부드러움 설정 */
 }
 
+/* Hover 시 확대 효과 유지 */
 .work-item:hover .image-wrapper img {
-    transform: translate(-50%, -50%) scale(1.1); /* 중앙 기준으로 확대 */
+    transform: scale(1.1); /* 중앙 기준으로 확대 */
 }
 
 .container {
@@ -400,6 +407,10 @@ p {
     margin: 0em;
 }
 
+.work-meta{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
 
 .social-links a {
     display: inline-block;

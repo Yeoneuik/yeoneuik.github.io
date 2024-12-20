@@ -164,8 +164,13 @@ function renderWorkDetail(work) {
             <p class="subtitle">${work.subtitle}</p>
         </div>
         <div class="work-main">
-            <img src="${work.mainImage}" alt="${work.title}" class="main-image">
-            ${work.mainVideo ? `<iframe src="${work.mainVideo}" frameborder="0" allowfullscreen></iframe>` : ""}
+            <div class="media-container">
+                <img src="${work.mainImage}" alt="${work.title}" class="media-item main-image">
+            </div>
+            ${work.mainVideo ? `
+            <div class="media-container">
+                <iframe src="${work.mainVideo}" frameborder="0" allowfullscreen class="media-item main-video"></iframe>
+            </div>` : ""}
         </div>
         <div class="work-meta">
             <p><strong>Year:</strong> ${work.year}</p>
