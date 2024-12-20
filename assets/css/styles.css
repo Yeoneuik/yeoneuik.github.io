@@ -95,6 +95,11 @@ header {
     z-index: 1; /* 콘텐츠가 배경 위에 위치하도록 */
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    height: 90vh; /* 화면 전체 높이 사용 */
+    padding: 0em;
 }
 
 /* index.html에서 배경 제거 */
@@ -316,6 +321,10 @@ main {
     max-width: 1200px; /* 가로 최대 길이 제한 */
     margin: 0 auto;   /* 중앙 정렬 */
     padding: 0 1em;   /* 좌우 여백 */
+}
+
+#works.container {
+    max-width: 2000px;
 }
 
 img {
