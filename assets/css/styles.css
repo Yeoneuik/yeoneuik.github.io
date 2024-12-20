@@ -104,6 +104,10 @@ header {
     z-index: 10;
 }
 
+.home-page footer {
+    display: none;
+}
+
 /* Home 로고 */
 header .logo a {
     font-size: 1em; /* 기본 글자 크기 */
@@ -217,13 +221,20 @@ main {
     width: 150px;
     border-radius: 50%;
     display: block;
-    margin: 0 auto 1em;
+    margin: 0 auto 2em;
 }
 
 .work-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
     gap: 1em;
+}
+
+/* PC 화면 (768px 이상)에서는 한 줄에 2개 */
+@media (min-width: 768px) {
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr); /* 한 줄에 2개 */
+    }
 }
 
 /* Back Button 스타일 */
@@ -270,7 +281,7 @@ main {
 }
 
 .work-item img {
-    
+    margin: 0em;
     width: 100%; /* 부모 요소에 맞게 폭 조정 */
     /*aspect-ratio: 16 / 9; /* 원하는 비율 설정 (16:9, 4:3, 1:1 등) */
     object-fit: cover; /* 이미지 비율을 유지하며 크롭 */
@@ -279,7 +290,7 @@ main {
 
 /* 이미지 래퍼 스타일 */
 .image-wrapper {
-    border-radius: 5px; /* 버튼 모서리 둥글게 */
+    border-radius: 5px; /* 버튼 모서리 둥글게 */    
     position: relative; /* 내부 이미지 위치를 기준으로 설정 */
     width: 100%; /* 부모 크기에 맞춤 */
     height: 0;
@@ -338,11 +349,12 @@ h2 {
 
 #work-detail .subtitle{
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .ProjectTitle{
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin-top: 0.5em;
+    /*margin-bottom: 2em;*/
 }
 
 p {
@@ -351,6 +363,34 @@ p {
     word-wrap: break-word; /* 긴 단어가 줄을 넘지 않도록 */
     text-align: justify; /* 텍스트 양쪽 정렬 */
 }
+
+.work-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-container {
+    width: 100%; /* 부모의 가로 크기를 기준으로 */
+    aspect-ratio: 16 / 9; /* 16:9 비율 고정 */
+    overflow: hidden; /* 초과된 콘텐츠 숨기기 */
+    position: relative;
+}
+
+.media-container img,
+.media-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 부모의 가로 크기에 맞춤 */
+    height: 100%; /* 부모의 세로 크기에 맞춤 */
+    object-fit: cover; /* 비율 유지하면서 꽉 채움 */
+    border: none;
+    margin: 0em;
+}
+
 
 .social-links a {
     display: inline-block;
@@ -394,10 +434,13 @@ p {
     display: flex; /* Flexbox로 중앙 정렬 */
     opacity: 1;
     visibility: visible;
+    transition: border-radius 0.5s ease;
 }
 
 .back-to-top:hover {
     background-color: #FFD400;
+    border-radius: 70%;
+    transition: border-radius 0.5s ease;
 }
 
 footer {
@@ -416,6 +459,8 @@ footer {
     /*margin: 0.5em 0; /* 위아래 간격 */
     text-align: center;
 }
+
+
 
 .social-icons {
     /*margin: 1em 0; /* 위아래 간격 */
