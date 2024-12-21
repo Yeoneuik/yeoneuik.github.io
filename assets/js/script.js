@@ -61,18 +61,20 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 /////////////////////////////////
 // works 페이지 채우는 코드 //////
 document.addEventListener("DOMContentLoaded", () => {
-    // 현재 페이지 경로를 가져옵니다.
     const currentPath = window.location.pathname;
 
     if (currentPath.includes("work.html")) {
-        // works 페이지 처리
         const workGrid = document.getElementById("workGrid");
+        const filterButtons = document.getElementById("filterButtons");
 
         if (!workGrid) {
             console.error("Element with id 'workGrid' not found in DOM.");
             return;
         }
 
+        let allWorks = []; // 모든 작품 데이터를 저장
+
+        // JSON 데이터 로드
         fetch("assets/data/works.json")
             .then(response => {
                 if (!response.ok) {
@@ -81,11 +83,39 @@ document.addEventListener("DOMContentLoaded", () => {
                 return response.json();
             })
             .then(data => {
-                renderWorks(data);
+                allWorks = data;
+                renderWorks(allWorks); // 초기에는 모든 작품 표시
+
+                // "모두 / All" 버튼을 선택 상태로 설정
+                const allButton = filterButtons.querySelector('button[data-filter="All"]');
+                if (allButton) {
+                    allButton.classList.add("active");
+                }
             })
             .catch(error => console.error("Error loading JSON:", error.message));
+
+        // 필터 버튼 클릭 이벤트
+        if (filterButtons) {
+            filterButtons.addEventListener("click", (event) => {
+                if (event.target.tagName === "BUTTON") {
+                    const filter = event.target.dataset.filter;
+
+                    // 버튼 활성화 상태 업데이트
+                    document.querySelectorAll(".filter-buttons button").forEach(button => {
+                        button.classList.toggle("active", button.dataset.filter === filter);
+                    });
+
+                    // 작품 필터링
+                    if (filter === "All") {
+                        renderWorks(allWorks);
+                    } else {
+                        const filteredWorks = allWorks.filter(work => work.분류 === filter);
+                        renderWorks(filteredWorks);
+                    }
+                }
+            });
+        }
     } else if (currentPath.includes("work-detail.html")) {
-        // work-detail 페이지 처리
         const workContent = document.getElementById("workContent");
 
         if (!workContent) {
@@ -107,7 +137,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 .then(data => {
                     const work = data.find(item => item.id === workId);
                     if (work) {
-                        // 페이지 제목 업데이트
                         document.title = work.title.replace(/<br>/g, " "); // `<br>` 태그 제거
                         renderWorkDetail(work);
                     } else {
@@ -124,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// works 페이지 렌더링 함수
+// 작품 렌더링 함수
 function renderWorks(works) {
     const workGrid = document.getElementById("workGrid");
 
@@ -144,12 +173,13 @@ function renderWorks(works) {
                 </div>
                 <h3 class="worktitle">${work.title}</h3>
                 <p class="subtitle">${work.subtitle}</p>
+                <p class="filter">${work.분류}</p>
             </a>
         </div>
     `).join('');
 }
 
-// work-detail 페이지 렌더링 함수
+// 상세 작품 렌더링 함수
 function renderWorkDetail(work) {
     const workContent = document.getElementById("workContent");
 
@@ -167,10 +197,6 @@ function renderWorkDetail(work) {
             <div class="media-container">
                 <img src="${work.mainImage}" alt="${work.title}" class="media-item main-image">
             </div>
-            ${work.mainVideo ? `
-            <div class="media-container">
-                <iframe src="${work.mainVideo}" frameborder="0" allowfullscreen class="media-item main-video"></iframe>
-            </div>` : ""}
         </div>
         <div class="work-meta">
             <p><strong>Year:</strong> ${work.year}</p>
@@ -178,12 +204,60 @@ function renderWorkDetail(work) {
             <p><strong>Key Words:</strong> ${work.keyWords}</p>
         </div>
         <div class="work-abstract">
-            <!--<h2>Abstract</h2>-->
             <h3>${work.abstract}</h3>
-        </div>
-        <div class="work-detail">
-            <!--<h2>Details</h2>-->
             <p>${work.detail}</p>
+            <br>
         </div>
+        ${work.mainVideo ? `
+            <div class="media-container">
+                <iframe src="${work.mainVideo}" frameborder="0" allowfullscreen class="media-item main-video"></iframe>
+            </div>` : ""}
+        <div class="work-detail"></div>
     `;
+
+    appendDetailImages(work.id); // detail 이미지 추가
+}
+
+// detail 이미지를 추가하는 함수
+function appendDetailImages(workId) {
+    const workDetailContainer = document.querySelector(".work-detail");
+
+    if (!workDetailContainer) {
+        console.error("Element with class 'work-detail' not found in DOM.");
+        return;
+    }
+
+    // detail 이미지가 저장된 폴더 경로
+    const detailFolderPath = `assets/images/${workId}/`;
+
+    // detail 이미지 개수를 추정하여 동적으로 생성
+    let imageIndex = 1; // detail1.jpg부터 시작
+
+    function loadNextImage() {
+        const imagePath = `${detailFolderPath}detail${imageIndex}.jpg`;
+        const img = new Image();
+
+        img.onload = () => {
+            // 이미지 로드 성공 시 추가
+            workDetailContainer.insertAdjacentHTML("beforeend", `
+                <div class="media-container">
+                    <img src="${imagePath}" alt="Detail Image ${imageIndex}" class="media-item detail-image">
+                </div>
+            `);
+
+            // 다음 이미지 로드 시도
+            imageIndex++;
+            loadNextImage();
+        };
+
+        img.onerror = () => {
+            // 이미지 로드 실패 시 종료
+            console.log(`No more images found after detail${imageIndex - 1}.jpg`);
+        };
+
+        img.src = imagePath;
+    }
+
+    // 첫 번째 이미지 로드 시작
+    loadNextImage();
 }

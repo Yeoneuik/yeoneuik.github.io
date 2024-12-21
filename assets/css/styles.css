@@ -40,6 +40,16 @@ h1,h2,h3 #home{
     text-align: center;
 }
 
+#home h1{
+    font-family: 'Pretendard-ExtraBold', Arial, sans-serif;
+    font-size:20px;
+}
+
+h1,h2,h3.bio{
+    text-align: center;
+    margin:0.2em;
+}
+
 body {
     font-family: 'Pretendard-Regular', Arial, sans-serif; /* Pretendard를 기본 폰트로 설정 */
     line-height: 1.6;
@@ -156,7 +166,7 @@ header .menu {
 
 /* 스크롤 시 헤더 스타일 */
 header.scrolled {
-    background-color: rgba(255, 212, 0, 0.5); /* 약간 투명 */
+    background-color: rgba(255, 221, 0, 0.9); /* 약간 투명 */
     padding: 0em 0em; /* 패딩 축소 */
 }
 
@@ -254,7 +264,7 @@ main {
     color: #333; /* 기본 텍스트 색상 */
     text-decoration: none; /* 밑줄 제거 */
     font-size: 1em; /* 글자 크기 */
-    margin-bottom: 4em; /* 아래 콘텐츠와 간격 */
+    margin-bottom: 1.1em; /* 아래 콘텐츠와 간격 */
     font-weight: bold; /* 글자 굵게 */
     padding: 0.5em 1em; /* 버튼 내부 여백 */
     /*border: 1px solid #ddd; /* 테두리 추가 */
@@ -276,12 +286,39 @@ main {
     /*color: #FFD400; /* 텍스트 색 변경 */
 }
 
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.filter-buttons button {
+    padding: 0.5em 1em;
+    margin: 0.2em;
+    border: 1px solid #FFD400;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+    background-color: #FFD400;
+    color: white;
+}
+
+.filter-buttons button.active {
+    background-color: #FFD400;
+    color: white;
+}
+
 /* work-item 기본 스타일 */
 .work-item {
     border-radius: 5px; /* 버튼 모서리 둥글게 */
     padding: 1em;
     /*border: 1px solid #ddd;*/
     margin-bottom: 1em;
+    /*box-shadow: 0 20px 500px #FFEE99;*/
     transition: background-color 0.3s ease, transform 0.3s ease; /* 부드러운 효과 */
 }
 
@@ -350,7 +387,10 @@ h2 {
 .worktitle {
     font-size: 1.6em;
     color: #000000;
-    margin-bottom: 1em;
+    margin: 0.5em;
+    margin-left: 0em;
+    margin-right: 0em;
+    /*margin-bottom: 1em;*/
     /*text-align: center;
     font-style: italic;*/
 }
@@ -358,9 +398,14 @@ h2 {
 .subtitle {
     font-size: 1em;
     color: #666;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     /*text-align: center;
     font-style: italic;*/
+}
+
+.filter {
+    /*text-align: right;*/
+    color: #aaa;
 }
 
 #work-detail .subtitle{
@@ -377,7 +422,7 @@ p {
     line-height: 1.6; /* 가독성을 위한 줄 간격 */
     /*margin-bottom: 1em; /* 단락 간격 */
     word-wrap: break-word; /* 긴 단어가 줄을 넘지 않도록 */
-    text-align: justify; /* 텍스트 양쪽 정렬 */
+    text-align: left; /* 텍스트 양쪽 정렬 */
 }
 
 .work-main {
@@ -393,6 +438,7 @@ p {
     aspect-ratio: 16 / 9; /* 16:9 비율 고정 */
     overflow: hidden; /* 초과된 콘텐츠 숨기기 */
     position: relative;
+    margin-bottom: 1em; /* 이미지 간 여백 */
 }
 
 .media-container img,
@@ -426,6 +472,10 @@ p {
     border: 1px solid #FFD400;;
     background-color: #FFD400;
     color: white;
+}
+
+body .social-links{
+    text-align: center;
 }
 
 /* Include this in styles.css */
