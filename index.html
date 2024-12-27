@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<html translate="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,16 @@
     <script src="assets/js/script.js" defer></script>
 </head>
 <body class="home-page">
-    <iframe 
-        id="video-background"
-        src="https://www.youtube.com/embed/g9JVZ7v6piU?autoplay=1&mute=1&loop=1&playlist=g9JVZ7v6piU&vq=hd1080&controls=0&disablekb=1&modestbranding=1&fs=0"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen>
-    </iframe>
+    <video 
+    id="video-background" 
+    autoplay 
+    muted 
+    loop 
+    playsinline>
+    <source src="assets/videos/homeBGVid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div id="overlay"></div>
     <header>
         <div class="logo">
             <a href="index.html" class="active">
