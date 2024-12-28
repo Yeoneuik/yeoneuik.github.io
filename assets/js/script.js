@@ -188,6 +188,14 @@ function renderWorkDetail(work) {
         return;
     }
 
+    // Google Analytics에 가상 페이지뷰 전송
+    const virtualUrl = `/works/${work.id}`; // 작품별 가상 URL
+    const artworkTitle = work.title;       // 작품 제목
+    gtag('config', 'G-BY5NT9HC0K', {       // Tracking ID로 교체
+        'page_path': virtualUrl,
+        'page_title': artworkTitle
+    });
+
     workContent.innerHTML = `
         <div class="work-header">
             <h2 class="ProjectTitle">${work.title}</h2>
