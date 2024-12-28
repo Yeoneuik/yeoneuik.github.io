@@ -282,7 +282,7 @@ main {
     background-color: #f9f9f9; /* 버튼 배경색 */
     transition: background-color 0.3s ease; /* 호버 시 부드러운 효과 */
     position: relative; /* 상대 위치로 설정 */
-    left: -1em; /* 왼쪽으로 1em 이동 */
+    /*left: -1em; /* 왼쪽으로 1em 이동 */
 }
 
 /* Back Button 아이콘 */
@@ -397,7 +397,8 @@ h2 {
 .worktitle {
     font-size: 1.6em;
     color: #000000;
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
     margin-left: 0em;
     margin-right: 0em;
     /*margin-bottom: 1em;*/
@@ -433,6 +434,7 @@ p {
     /*margin-bottom: 1em; /* 단락 간격 */
     word-wrap: break-word; /* 긴 단어가 줄을 넘지 않도록 */
     text-align: left; /* 텍스트 양쪽 정렬 */
+    font-size: 16px;
 }
 
 .work-main {
@@ -557,3 +559,9 @@ footer {
 .social-icons a:hover {
     color: #FFD400; /* 호버 시 색상 변경 */
 }
+
+.highlight {
+    /*background-color: rgb(255, 255, 255); /* 형광펜 색상 */
+    color: #c4a300;
+    /*padding: 0 0.2em;         /* 텍스트와 배경색 간의 간격 조절 */
+  }
