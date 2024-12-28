@@ -63,7 +63,7 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 document.addEventListener("DOMContentLoaded", () => {
     const currentPath = window.location.pathname;
 
-    if (currentPath.includes("work.html")) {
+    if (currentPath.includes("/works/")&& !currentPath.includes("work-detail.html")) {
         const workGrid = document.getElementById("workGrid");
         const filterButtons = document.getElementById("filterButtons");
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let allWorks = []; // 모든 작품 데이터를 저장
 
         // JSON 데이터 로드
-        fetch("assets/data/works.json")
+        fetch("../assets/data/works.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const workId = urlParams.get("id");
 
         if (workId) {
-            fetch("assets/data/works.json")
+            fetch("../assets/data/works.json")
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -167,7 +167,7 @@ function renderWorks(works) {
 
     workGrid.innerHTML = reversedWorks.map(work => `
         <div class="work-item">
-            <a href="${work.link}">
+            <a href="/works/work-detail.html?id=${work.id}">
                 <div class="image-wrapper">
                     <img src="${work.thumbnail}" alt="${work.title} Thumbnail">
                 </div>
@@ -228,7 +228,7 @@ function appendDetailImages(workId) {
     }
 
     // detail 이미지가 저장된 폴더 경로
-    const detailFolderPath = `assets/images/${workId}/`;
+    const detailFolderPath = `../assets/images/${workId}/`;
 
     // detail 이미지 개수를 추정하여 동적으로 생성
     let imageIndex = 1; // detail1.jpg부터 시작
