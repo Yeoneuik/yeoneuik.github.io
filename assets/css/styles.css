@@ -101,7 +101,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 반투명한 검정 오버레이 */
+    background-color: rgba(0, 0, 0, 0); /* 반투명한 검정 오버레이 */
     z-index: -1;
 }
 
