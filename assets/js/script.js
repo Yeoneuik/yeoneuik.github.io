@@ -153,7 +153,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// 작품 렌더링 함수
 function renderWorks(works) {
     const workGrid = document.getElementById("workGrid");
 
@@ -171,9 +170,10 @@ function renderWorks(works) {
                 <div class="image-wrapper">
                     <img src="${work.thumbnail}" 
                          alt="${work.title} Thumbnail"
-                         data-original="${work.thumbnail}"
-                         data-hover="${work.thumbnail.replace('.jpg', '2.jpg')}"
                          class="work-thumbnail">
+                    <img src="${work.thumbnail.replace('.jpg', '2.jpg')}"
+                         alt="${work.title} Hover Thumbnail"
+                         class="work-thumbnail hover-img">
                 </div>
                 <h3 class="worktitle">${work.title}</h3>
                 <p class="subtitle">${work.subtitle}</p>
@@ -182,17 +182,23 @@ function renderWorks(works) {
         </div>
     `).join('');
 
-    // 썸네일 이미지 hover 효과 추가
-    document.querySelectorAll('.work-thumbnail').forEach(img => {
-        img.addEventListener('mouseenter', () => {
-            img.src = img.getAttribute('data-hover');
+    // work-item 전체에 hover 이벤트 적용
+    document.querySelectorAll('.work-item').forEach(item => {
+        const hoverImg = item.querySelector('.hover-img');
+
+        item.addEventListener('mouseenter', () => {
+            hoverImg.style.opacity = "1"; // 부드럽게 나타남
         });
 
-        img.addEventListener('mouseleave', () => {
-            img.src = img.getAttribute('data-original');
+        item.addEventListener('mouseleave', () => {
+            hoverImg.style.opacity = "0"; // 부드럽게 사라짐
         });
     });
 }
+
+
+
+
 
 
 // 상세 작품 렌더링 함수
