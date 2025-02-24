@@ -169,7 +169,11 @@ function renderWorks(works) {
         <div class="work-item">
             <a href="/works/work-detail.html?id=${work.id}">
                 <div class="image-wrapper">
-                    <img src="${work.thumbnail}" alt="${work.title} Thumbnail">
+                    <img src="${work.thumbnail}" 
+                         alt="${work.title} Thumbnail"
+                         data-original="${work.thumbnail}"
+                         data-hover="${work.thumbnail.replace('.jpg', '2.jpg')}"
+                         class="work-thumbnail">
                 </div>
                 <h3 class="worktitle">${work.title}</h3>
                 <p class="subtitle">${work.subtitle}</p>
@@ -177,7 +181,19 @@ function renderWorks(works) {
             </a>
         </div>
     `).join('');
+
+    // 썸네일 이미지 hover 효과 추가
+    document.querySelectorAll('.work-thumbnail').forEach(img => {
+        img.addEventListener('mouseenter', () => {
+            img.src = img.getAttribute('data-hover');
+        });
+
+        img.addEventListener('mouseleave', () => {
+            img.src = img.getAttribute('data-original');
+        });
+    });
 }
+
 
 // 상세 작품 렌더링 함수
 function renderWorkDetail(work) {
