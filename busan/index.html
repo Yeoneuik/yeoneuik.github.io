@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Busan</title>
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/busan/presentation.css">
+</head>
+<body>
+    <!--
+      발표 자료 교체 방법 (assets/busan/ 폴더):
+      - intro.mp4     : 1페이지 영상
+      - slide-01 ~ slide-05 : png, jpg, webp 등 (파일명만 맞추면 자동 인식)
+    -->
+    <div class="deck" id="deck">
+        <section class="slide active" data-slide="0" aria-label="영상">
+            <video id="intro-video" src="../assets/busan/intro.mp4" playsinline controls preload="metadata"></video>
+        </section>
+        <section class="slide" data-slide="1" aria-label="슬라이드 2">
+            <img src="../assets/busan/slide-01.svg" alt="" data-slide="slide-01">
+        </section>
+        <section class="slide" data-slide="2" aria-label="슬라이드 3">
+            <img src="../assets/busan/slide-02.svg" alt="" data-slide="slide-02">
+        </section>
+        <section class="slide" data-slide="3" aria-label="슬라이드 4">
+            <img src="../assets/busan/slide-03.svg" alt="" data-slide="slide-03">
+        </section>
+        <section class="slide" data-slide="4" aria-label="슬라이드 5">
+            <img src="../assets/busan/slide-04.svg" alt="" data-slide="slide-04">
+        </section>
+        <section class="slide" data-slide="5" aria-label="슬라이드 6">
+            <img src="../assets/busan/slide-05.svg" alt="" data-slide="slide-05">
+        </section>
+    </div>
+
+    <div class="slide-counter" aria-hidden="true">1 / 6</div>
+    <p class="hint">1페이지: 다음 입력 시 재생 · 재생 중 다음 입력 시 넘김 · ← 이전</p>
+
+    <script src="../assets/busan/presentation.js"></script>
+</body>
+</html>
