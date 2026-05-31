@@ -27,34 +27,8 @@
     "detail": "&lt;쥬스쥬스플레이&gt; 세부 내용 업로드 예정<br><br>.",
     "link": "work-detail.html?id=work17"
   },
-  {
-    "id": "work18",
-    "year": "2025",
-    "분류": "전시 / Exhibition",
-    "title": "조각들 프로젝트<br>Project Pieces",
-    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 미디어, Voice Interactive Media</span><br>포항문화재단",
-    "keyWords": "Unity Engine",
-    "thumbnail": "../assets/images/work18/thumbnail.jpg",
-    "mainVideo": "",
-    "mainImage": "../assets/images/work18/main.jpg",
-    "abstract": "\"남겨둔 목소리와 추억, 다시 찾고싶은 포항의 바다\"<br>\".\"",
-    "detail": "&lt;조각들 프로젝트&gt; 세부 내용 업로드 예정<br><br>.",
-    "link": "work-detail.html?id=work18"
-  },
-  {
-    "id": "work19",
-    "year": "2025",
-    "분류": "예술 협업 / Collaboration",
-    "title": "므네모리움 : 기억의 도서관<br>Mnemosyrium : The Library of Memories",
-    "subtitle": "<span class=\"highlight\">관객참여형 스토리텔링 공연, Interactive Show</span><br>한국콘텐츠진흥원, 춘천공연예술창업지원센터",
-    "keyWords": "Unreal Engine",
-    "thumbnail": "../assets/images/work19/thumbnail.jpg",
-    "mainVideo": "",
-    "mainImage": "../assets/images/work19/main.jpg",
-    "abstract": "\".\"<br>\".\"",
-    "detail": "&lt;...&gt; 세부 내용 업로드 예정<br><br>.",
-    "link": "work-detail.html?id=work19"
-  },
+
+
   {
     "id": "work20",
     "year": "2025",
@@ -65,24 +39,11 @@
     "thumbnail": "../assets/images/work20/thumbnail.jpg",
     "mainVideo": "",
     "mainImage": "../assets/images/work20/main.jpg",
-    "abstract": "\"...\"<br>\"...\"",
-    "detail": "&lt;...&gt; 세부 내용 업로드 예정<br><br>.",
+    "abstract": "\"조용한 숲속에 조각들을 불러서 함께 노래하자\"",
+    "detail": "숲속숲송(Groovy Grovey)은 관객이 숲속에서 조각을 불러와 함께 음악을 연주하며 숲의 음악을 채워나가는 인터랙티브 사운드 미디어아트입니다. 중앙의 터치스크린에서 피아노를 치듯이 마음에 드는 모양을 누르면 3면에 조각들이 나타나고, 나타난 조각들은 마치 악기가 된 듯이 하나의 곡을 연주합니다.",
     "link": "work-detail.html?id=work20"
   },
-  {
-    "id": "work21",
-    "year": "2025",
-    "분류": "전시 / Exhibition",
-    "title": "별빛소원 : 새로 이어지는<br>Starlit Wish : Through Birds Anew",
-    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 미디어, Voice Interactive Media</span><br>2025 수원화성 미디어아트, 수원문화재단",
-    "keyWords": "Unity Engine",
-    "thumbnail": "../assets/images/work21/thumbnail.jpg",
-    "mainVideo": "",
-    "mainImage": "../assets/images/work21/main.jpg",
-    "abstract": "\"...\"<br>\"...\"",
-    "detail": "&lt;...&gt; 세부 내용 업로드 예정<br><br>.",
-    "link": "work-detail.html?id=work21"
-  },
+
   {
     "id": "work22",
     "year": "2025",
@@ -367,6 +328,47 @@
     "abstract": "\"따뜻한 말이 일으키는 변화의 물결\"<br>\"The ripple of change sparked by warm words\"",
     "detail": "&lt;숨결은 물결이 되어&gt;는 관객의 목소리가 바다의 생명력으로 변모하는 보이스 인터랙티브 미디어아트입니다. 5면 프로젝션 맵핑으로 구현된 바닷속 공간에 초대된 관객이 전시장 중앙의 마이크에 목소리를 내면 그, 단어와 소리가 시각적 형상으로 나타나 물고기처럼 바다를 유영합니다. 숨결처럼 내뱉은 말이 생명체가 되고 그것이 , 일으킨 물결이 넓은 바다를 만들어가듯이 작품은 , 우리의 말과 행동이 세상에 미치는 영향을 성찰하게 합니다. 관객들은 자신의 목소리와 행동이 가진 창조적인 힘을 느끼며 따뜻한 말로 따뜻한 세상을 만들어갑니다. 바다라는 거대한 생명의 공간에서 우리의 숨결이 세상을 변화시키는 첫 시작이 될 수 있음을 체감하며, 함께 따뜻하고 아름다운 물결을 만들어가는 여정을 경험해보세요.<br>Xorbis Creators Membership : xorbis.com/xcm<br><br>Breath into Waves is a voice-interactive media art installation where the audience's voices transform into the life force of the ocean. Set within an underwater space brought to life through five-sided projection mapping, visitors are invited to speak into a microphone placed at the center of the exhibition. Words and sounds emerge as visual forms, swimming like fish in the sea. Just as spoken words—like breaths—become living entities, creating ripples that shape a vast ocean, the artwork reflects on how our words and actions influence the world around us. Through this immersive experience, participants feel the creative power of their voices and actions, fostering a world enriched by kind and thoughtful expressions. In the expansive life-giving space of the ocean, visitors are reminded that their breath can be the starting point of profound change. Join this journey to create warm and beautiful waves together, and feel the collective impact of our shared humanity.",
     "link": "work-detail.html?id=work15"
+  },
+  {
+    "id": "work18",
+    "year": "2025",
+    "분류": "전시 / Exhibition",
+    "title": "조각들 프로젝트<br>Project Pieces",
+    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 미디어, Voice Interactive Media</span><br>포항문화재단",
+    "keyWords": "Unity Engine",
+    "thumbnail": "../assets/images/work18/thumbnail.jpg",
+    "mainVideo": "",
+    "mainImage": "../assets/images/work18/main.jpg",
+    "abstract": "\"조각에 담은 목소리와 추억, 다시 찾고싶은 포항의 바다\"<br>\".\"",
+    "detail": "시민들이 포항 워터폴리를 다시 찾게하는것을 목표로 하는 도시재생형 인터랙티브 미디어아트 프로젝트입니다. 시민들은 포항 바다 앞에 위치한 워터폴리에서 조각(RFID)에 각자의 소원과 목소리를 담을 수 있고, 기억의 단상에 태그하여 그것을 디지털 바다에 표출할 수도 있습니다. 한데 어우러져 유영하는 모두의 감정과 기억 속에서 사람들간의 감성적인 연결을 경험하게 합니다.",
+    "link": "work-detail.html?id=work18"
+  },
+  {
+    "id": "work19",
+    "year": "2025",
+    "분류": "예술 협업 / Collaboration",
+    "title": "므네모리움 : 기억의 도서관<br>Mnemosyrium : The Library of Memories",
+    "subtitle": "<span class=\"highlight\">관객참여형 스토리텔링 공연, Interactive Show</span><br>한국콘텐츠진흥원, 춘천공연예술창업지원센터",
+    "keyWords": "Unreal Engine",
+    "thumbnail": "../assets/images/work19/thumbnail.jpg",
+    "mainVideo": "https://youtu.be/StUidL1m-wk?si=XwcoapEU50VKlGIA",
+    "mainImage": "../assets/images/work19/main.jpg",
+    "abstract": "\"생성형 AI + 공연자 + 관객이 함께 쓰고 연주하는 인터랙티브 스토리텔링 음악공연\"<br>\"An interactive storytelling music performance co-written and performed by generative AI, performers, and the audience.\"",
+    "detail": "모든 사람들의 기억이 책으로 보관되는 기억의 도서관. 어느 날, 기억 유지 장치가 고장 나며 도서관이 붕괴 위기에 처합니다. 사서를 도와 도서관을 지키기 위한 연주를 시작하세요.<br><br>대한민국 AI 콘텐츠 어워즈, Pitch the Future 음악부문 2위 수상, 춘천 공연예술창업지원센터 기술융복합공연 콘텐츠 경진대회 합톤 우수상 수상.<br><br>파일럿 공연 풀영상 : https://youtu.be/SnSxObguHNo",
+    "link": "work-detail.html?id=work19"
+  },
+  {
+    "id": "work21",
+    "year": "2025",
+    "분류": "전시 / Exhibition",
+    "title": "별빛소원 : 새로 이어지는<br>Starlit Wish : Through Birds Anew",
+    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 미디어, Voice Interactive Media</span><br>2025 수원화성 미디어아트, 수원문화재단",
+    "keyWords": "Unity Engine",
+    "thumbnail": "../assets/images/work21/thumbnail.jpg",
+    "mainVideo": "",
+    "mainImage": "../assets/images/work21/main.jpg",
+    "abstract": "\"목소리로 쏘아올리는 별빛 소원\"<br>\"A starlit wish launched by voice\"",
+    "detail": "솟대 위의 새, 오리는 물과 하늘을 오가는 전령이었습니다. 새가 우리의 마음을 하늘에 전해준다고 믿고, 떨어지는 별들에 당연하게도 소원을 속삭인 것은 모두 하늘과 우리가 이어지기를 바라는 소망이었을 테지요.<br><br>우리는 간절한 소원을 한켠에 품고 살아가지만 단단한 마음의 소리가 흩어져 닿지 못할 것만 같을 때가 있습니다. &lt;별빛소원 : 새로 이어지는&gt;은 당신의 소원을 목소리에 실어 올려 별빛으로 피워냅니다. 별이 되어 하늘에 머무른 목소리는 다시 우리의 곁을 밝히고, 이내 별똥별이 되어 소원을 이루는 새 길로 이어줄지도 모릅니다.<br><br>물과 하늘, 우리를 이어주는 솟대 아래에서 당신의 별빛소원을 들려주세요.<br><br>.",
+    "link": "work-detail.html?id=work21"
   }
-
 ]
