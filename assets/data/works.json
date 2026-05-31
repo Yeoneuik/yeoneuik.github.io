@@ -7,10 +7,10 @@
     "subtitle": "<span class=\"highlight\">보이스 인터랙티브 미디어, Voice Interactive Media</span><br>소마미술관 2관",
     "keyWords": "Unity Engine",
     "thumbnail": "../assets/images/work16/thumbnail.jpg",
-    "mainVideo": "",
+    "mainVideo": "https://www.youtube.com/embed/_XAH1QCcz4I?si=JqOA9Jpi9uDfTpbT",
     "mainImage": "../assets/images/work16/main.jpg",
     "abstract": "\"바나나 씨앗은 어디로 갔을까? 빠씨야 하고 불러봐!\"<br>\"Where did all the banana seeds go?\"",
-    "detail": "&lt;소닉프룻&gt; 세부 내용 업로드 예정<br><br>.",
+    "detail": "바나나씨 요정 빠씨들은 어디로 갔을까요? 우리 다같이 빠씨야! 하고 불러 보아요! 푸룻푸룻 친구들이 힌트를 줄지도 몰라요!",
     "link": "work-detail.html?id=work16"
   },
   {
@@ -23,7 +23,7 @@
     "thumbnail": "../assets/images/work17/thumbnail.jpg",
     "mainVideo": "",
     "mainImage": "../assets/images/work17/main.jpg",
-    "abstract": "\"몸으로 연주하는 우주 소리\"<br>\".\"",
+    "abstract": "\"몸으로 연주하는 우주의 소리!\"<br>\"Let's play the sound of the universe with our body!\"",
     "detail": "&lt;쥬스쥬스플레이&gt; 세부 내용 업로드 예정<br><br>.",
     "link": "work-detail.html?id=work17"
   },
@@ -39,8 +39,8 @@
     "thumbnail": "../assets/images/work20/thumbnail.jpg",
     "mainVideo": "",
     "mainImage": "../assets/images/work20/main.jpg",
-    "abstract": "\"조용한 숲속에 조각들을 불러서 함께 노래하자\"",
-    "detail": "숲속숲송(Groovy Grovey)은 관객이 숲속에서 조각을 불러와 함께 음악을 연주하며 숲의 음악을 채워나가는 인터랙티브 사운드 미디어아트입니다. 중앙의 터치스크린에서 피아노를 치듯이 마음에 드는 모양을 누르면 3면에 조각들이 나타나고, 나타난 조각들은 마치 악기가 된 듯이 하나의 곡을 연주합니다.",
+    "abstract": "\"조용한 숲속에 조각들을 초대해서 함께 노래해요!\"<br>\"Invite the sculptures into the quiet forest and sing together!\"",
+    "detail": "숲속숲송(Groovy Grovey)은 관객이 숲속에서 조각을 불러와 함께 음악을 연주하며 숲의 음악을 채워나가는 인터랙티브 사운드 미디어아트입니다. 중앙의 터치스크린에서 피아노를 치듯이 마음에 드는 모양을 누르면 3면에 조각들이 나타나고, 나타난 조각들은 마치 악기가 된 듯이 하나의 곡을 연주합니다.<br><br>Groovy Grovey is an interactive sound media artwork in which the audience summons sculptural fragments from within the forest and performs music together, gradually filling the forest with sound.<br>On the central touchscreen, participants press the shapes they like, as if playing a piano. The selected fragments then appear across three surrounding screens, and, like musical instruments, come together to perform a single piece of music.",
     "link": "work-detail.html?id=work20"
   },
 
@@ -54,8 +54,8 @@
     "thumbnail": "../assets/images/work22/thumbnail.jpg",
     "mainVideo": "",
     "mainImage": "../assets/images/work22/main.jpg",
-    "abstract": "\"...\"<br>\"...\"",
-    "detail": "&lt;...&gt; 세부 내용 업로드 예정<br><br>.",
+    "abstract": "\"목소리로 연주하는 제너레티브 사운드 세상\"<br>\"Generative Sound World played by Voices\"",
+    "detail": "세부 내용 업로드 예정",
     "link": "work-detail.html?id=work22"
   },
   {
