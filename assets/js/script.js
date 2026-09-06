@@ -5,6 +5,9 @@ console.log("Portfolio site initialized.");
 // 스크롤 이벤트 리스너 추가
 window.addEventListener("scroll", () => {
     const header = document.querySelector("header");
+    if (!header) {
+        return;
+    }
     if (window.scrollY > 50) {
         header.classList.add("scrolled");
     } else {
@@ -15,6 +18,9 @@ window.addEventListener("scroll", () => {
 function adjustLogoColor() {
     console.log("로고 색을 계산합니다");
     const logo = document.querySelector('.logo-img');
+    if (!logo) {
+        return;
+    }
     const backgroundColor = window.getComputedStyle(document.body).backgroundColor;
 
     // RGB 값을 추출하여 밝기 계산
@@ -38,6 +44,10 @@ window.addEventListener('resize', adjustLogoColor);
 document.addEventListener('DOMContentLoaded', () => {
     const backToTopButton = document.getElementById('back-to-top');
 
+    if (!backToTopButton) {
+        return;
+    }
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 200) {
             backToTopButton.classList.add('show');
@@ -54,16 +64,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.getElementById('current-year').textContent = new Date().getFullYear();
+const currentYear = document.getElementById('current-year');
+if (currentYear) {
+    currentYear.textContent = new Date().getFullYear();
+}
 
 
 
 /////////////////////////////////
 // works 페이지 채우는 코드 //////
 document.addEventListener("DOMContentLoaded", () => {
-    const currentPath = window.location.pathname;
+    const pageType = document.body.dataset.page;
 
-    if (currentPath.includes("/works/")&& !currentPath.includes("work-detail.html")) {
+    if (pageType === "works-index") {
         const workGrid = document.getElementById("workGrid");
         const filterButtons = document.getElementById("filterButtons");
 
@@ -115,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
         }
-    } else if (currentPath.includes("work-detail.html")) {
+    } else if (pageType === "work-detail-legacy") {
         const workContent = document.getElementById("workContent");
 
         if (!workContent) {
@@ -137,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 .then(data => {
                     const work = data.find(item => item.id === workId);
                     if (work) {
-                        document.title = work.title.replace(/<br>/g, " "); // `<br>` 태그 제거
+                        applyLegacyWorkMetadata(work);
                         renderWorkDetail(work);
                     } else {
                         workContent.innerHTML = "<p>Work not found.</p>";
@@ -166,7 +179,7 @@ function renderWorks(works) {
 
     workGrid.innerHTML = reversedWorks.map(work => `
         <div class="work-item">
-            <a href="/works/work-detail.html?id=${work.id}">
+            <a href="${work.slug ? `/works/${work.slug}/` : `/works/work-detail.html?id=${work.id}`}">
                 <div class="image-wrapper">
                     <img src="${work.thumbnail}" 
                          alt="${work.title} Thumbnail"
@@ -196,6 +209,52 @@ function renderWorks(works) {
     });
 }
 
+function plainWorkText(value) {
+    const element = document.createElement("div");
+    element.innerHTML = String(value || "").replace(/<br\s*\/?>/gi, " / ");
+    return (element.textContent || "").replace(/\s+/g, " ").trim();
+}
+
+function setMetaContent(selector, content) {
+    let element = document.head.querySelector(selector);
+    if (!element) {
+        element = document.createElement("meta");
+        const propertyMatch = selector.match(/^meta\[property="([^"]+)"\]$/);
+        const nameMatch = selector.match(/^meta\[name="([^"]+)"\]$/);
+        if (propertyMatch) {
+            element.setAttribute("property", propertyMatch[1]);
+        } else if (nameMatch) {
+            element.setAttribute("name", nameMatch[1]);
+        }
+        document.head.appendChild(element);
+    }
+    element.setAttribute("content", content);
+}
+
+function applyLegacyWorkMetadata(work) {
+    const title = plainWorkText(work.title);
+    const description = plainWorkText(work.abstract || work.detail).slice(0, 160);
+    const canonicalUrl = work.slug
+        ? `https://yeoneui.kim/works/${work.slug}/`
+        : window.location.href;
+    const imageUrl = new URL(work.mainImage, window.location.href).href;
+
+    document.title = `${title} | Yeoneui Kim 김연의`;
+    setMetaContent('meta[name="description"]', description);
+    setMetaContent('meta[property="og:title"]', document.title);
+    setMetaContent('meta[property="og:description"]', description);
+    setMetaContent('meta[property="og:url"]', canonicalUrl);
+    setMetaContent('meta[property="og:image"]', imageUrl);
+
+    let canonical = document.head.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+        canonical = document.createElement("link");
+        canonical.setAttribute("rel", "canonical");
+        document.head.appendChild(canonical);
+    }
+    canonical.setAttribute("href", canonicalUrl);
+}
+
 // 명시된 hoverThumbnail이 없는 기존 데이터는 thumbnail과 같은 확장자로
 // thumbnail2 파일을 찾는다. 예: thumbnail.jpg -> thumbnail2.jpg
 function deriveHoverThumbnail(thumbnailPath) {
@@ -221,7 +280,7 @@ function renderWorkDetail(work) {
     }
 
     // Google Analytics에 가상 페이지뷰 전송
-    const virtualUrl = `/works/${work.id}`; // 작품별 가상 URL
+    const virtualUrl = work.slug ? `/works/${work.slug}/` : `/works/${work.id}`;
     const artworkTitle = work.title;       // 작품 제목
     gtag('config', 'G-BY5NT9HC0K', {       // Tracking ID로 교체
         'page_path': virtualUrl,
@@ -230,7 +289,7 @@ function renderWorkDetail(work) {
 
     workContent.innerHTML = `
         <div class="work-header">
-            <h2 class="ProjectTitle">${work.title}</h2>
+            <h1 class="ProjectTitle">${work.title}</h1>
             <p class="subtitle">${work.subtitle}</p>
         </div>
         <div class="work-main">

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PAGE_TITLE}}</title>
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <link rel="canonical" href="{{CANONICAL_URL}}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Yeoneui Kim 김연의">
+    <meta property="og:title" content="{{PAGE_TITLE}}">
+    <meta property="og:description" content="{{META_DESCRIPTION}}">
+    <meta property="og:url" content="{{CANONICAL_URL}}">
+    <meta property="og:image" content="{{OG_IMAGE_URL}}">
+    <meta property="og:image:alt" content="{{OG_IMAGE_ALT}}">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="application/ld+json">{{STRUCTURED_DATA}}</script>
+    <script src="/assets/js/script.js" defer></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BY5NT9HC0K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BY5NT9HC0K', {
+    'page_path': '{{ANALYTICS_PATH}}',
+    'page_title': '{{ANALYTICS_TITLE}}'
+  });
+</script>
+<body data-page="work-detail-static">
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="/assets/images/logo_bar.svg" alt="Yeoneui Kim 김연의" class="logo-img">
+            </a>
+        </div>
+        <div class="menu">
+            <a href="/about/">About</a>
+            <a href="/works/" class="active">Works</a>
+            <a href="/contact/">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="work-detail">
+                <a href="/works/" class="back-button">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i> 작품목록 / Back to Works
+                </a>
+                <article id="workContent">
+{{WORK_CONTENT}}
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>Yeoneui Kim 김연의</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yeoneuik" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.youtube.com/@yeoneui" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yeoneui/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p>All rights reserved. © <span id="current-year"></span></p>
+        </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top" aria-label="맨 위로 이동"><i class="fas fa-arrow-up" aria-hidden="true"></i></button>
+</body>
+</html>

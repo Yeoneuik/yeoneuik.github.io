@@ -426,6 +426,9 @@ h2 {
 
 .ProjectTitle{
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
     /*margin-bottom: 2em;*/
 }
 

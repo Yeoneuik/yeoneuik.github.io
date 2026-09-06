@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://yeoneui.kim/</loc>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/about/</loc>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/</loc>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/contact/</loc>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/finding-banana-seeds/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work16/thumbnail.jpg</image:loc>
+      <image:title>빠씨를 찾아서, 소닉프룻 / Finding Banana Seeds</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work16/main.jpg</image:loc>
+      <image:title>빠씨를 찾아서, 소닉프룻 / Finding Banana Seeds</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work16/detail1.jpg</image:loc>
+      <image:title>빠씨를 찾아서, 소닉프룻 / Finding Banana Seeds — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/juice-juice-play/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work17/thumbnail.jpg</image:loc>
+      <image:title>쥬쥬베리 별별탐사대, 쥬스쥬스플레이 / Juice Juice Play</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work17/main.jpg</image:loc>
+      <image:title>쥬쥬베리 별별탐사대, 쥬스쥬스플레이 / Juice Juice Play</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work17/detail1.jpg</image:loc>
+      <image:title>쥬쥬베리 별별탐사대, 쥬스쥬스플레이 / Juice Juice Play — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/groovy-grovey/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work20/thumbnail.jpg</image:loc>
+      <image:title>숲속숲송 : Groovy Grovey / 숲속숲송 : Groovy Grovey</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work20/main.jpg</image:loc>
+      <image:title>숲속숲송 : Groovy Grovey / 숲속숲송 : Groovy Grovey</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work20/detail1.jpg</image:loc>
+      <image:title>숲속숲송 : Groovy Grovey / 숲속숲송 : Groovy Grovey — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/sayin-strument/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work22/thumbnail.jpg</image:loc>
+      <image:title>Sayin-strument / Sayin-strument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work22/main.jpg</image:loc>
+      <image:title>Sayin-strument / Sayin-strument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work22/detail1.jpg</image:loc>
+      <image:title>Sayin-strument / Sayin-strument — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/vjing/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/thumbnail.jpg</image:loc>
+      <image:title>VJing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/main.jpg</image:loc>
+      <image:title>VJing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail1.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail2.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail3.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail4.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail5.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.04/detail6.jpg</image:loc>
+      <image:title>VJing — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/sound-of-journey/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.01/thumbnail.jpg</image:loc>
+      <image:title>Sound of Journey 1, 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.01/main.jpg</image:loc>
+      <image:title>Sound of Journey 1, 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/facin-strument/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/thumbnail.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/main.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail1.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail2.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail3.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail4.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail5.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.02/detail6.jpg</image:loc>
+      <image:title>Facetrument : Face+Instrument — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/touchin-strument/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/thumbnail.jpg</image:loc>
+      <image:title>Touchin-strument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/main.jpg</image:loc>
+      <image:title>Touchin-strument</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail1.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail2.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail3.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail4.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail5.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail6.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail7.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail8.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work0.03/detail9.jpg</image:loc>
+      <image:title>Touchin-strument — 상세 이미지 9 / Detail image 9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/sejong-i-online-playground/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/thumbnail.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/main.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail1.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail2.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail3.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail4.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail5.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail6.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail7.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail8.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work1/detail9.jpg</image:loc>
+      <image:title>세종아이 온라인 놀이터 / Sejong-I Online Playground — 상세 이미지 9 / Detail image 9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/vuja-de/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/thumbnail.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/main.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail1.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail2.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail3.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail4.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail5.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail6.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail7.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail8.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work2/detail9.jpg</image:loc>
+      <image:title>Vuja de : 익숙한 무엇을 낯설게 하는 과정 / Vuja de : The Process of Making the Familiar Strange — 상세 이미지 9 / Detail image 9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/moon-what-kind-of-moon/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/thumbnail.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/main.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon?</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail1.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail2.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail3.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail4.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail5.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail6.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail7.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail8.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail9.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 9 / Detail image 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work3/detail10.jpg</image:loc>
+      <image:title>()달 : 달달 무슨 달? / ()Moon: Moon Moon, What Kind of Moon? — 상세 이미지 10 / Detail image 10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/pulling-force/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/thumbnail.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/main.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/detail1.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/detail2.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/detail3.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work4/detail4.jpg</image:loc>
+      <image:title>끌:력 서로가 서로를 이끄는 힘 / Pulling Force — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/abyss/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work5/thumbnail.jpg</image:loc>
+      <image:title>ABYSS : 심연 / ABYSS</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work5/main.jpg</image:loc>
+      <image:title>ABYSS : 심연 / ABYSS</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work5/detail1.jpg</image:loc>
+      <image:title>ABYSS : 심연 / ABYSS — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work5/detail2.jpg</image:loc>
+      <image:title>ABYSS : 심연 / ABYSS — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work5/detail3.jpg</image:loc>
+      <image:title>ABYSS : 심연 / ABYSS — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/music-shower/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/thumbnail.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/main.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail1.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail2.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail3.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail4.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail5.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail6.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work6/detail7.jpg</image:loc>
+      <image:title>뮤직샤워 : 빛과 음악으로 샤워하다 / Music Shower : Showered in Light and Music — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/the-wave-that-stirred-the-mind/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/thumbnail.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/main.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/detail1.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/detail2.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/detail3.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/detail4.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work7/detail5.jpg</image:loc>
+      <image:title>마음에 일었던 파동 / The Wave That Stirred the Mind — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/my-dearest-wish/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work8/thumbnail.jpg</image:loc>
+      <image:title>롯데백화점 My Dearest Wish / Lotte Department store My Dearest Wish</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work8/main.jpg</image:loc>
+      <image:title>롯데백화점 My Dearest Wish / Lotte Department store My Dearest Wish</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work8/detail1.jpg</image:loc>
+      <image:title>롯데백화점 My Dearest Wish / Lotte Department store My Dearest Wish — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work8/detail2.jpg</image:loc>
+      <image:title>롯데백화점 My Dearest Wish / Lotte Department store My Dearest Wish — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work8/detail3.jpg</image:loc>
+      <image:title>롯데백화점 My Dearest Wish / Lotte Department store My Dearest Wish — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/x-axis/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work9/thumbnail.jpg</image:loc>
+      <image:title>창작실험 X-Axis / Creative Experiment</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work9/main.jpg</image:loc>
+      <image:title>창작실험 X-Axis / Creative Experiment</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work9/detail1.jpg</image:loc>
+      <image:title>창작실험 X-Axis / Creative Experiment — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work9/detail2.jpg</image:loc>
+      <image:title>창작실험 X-Axis / Creative Experiment — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work9/detail3.jpg</image:loc>
+      <image:title>창작실험 X-Axis / Creative Experiment — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/fiat-lux/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work10/thumbnail.jpg</image:loc>
+      <image:title>Fiat Lux : 빛이 있으라 / Fiat Lux : Let There Be Light</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work10/main.jpg</image:loc>
+      <image:title>Fiat Lux : 빛이 있으라 / Fiat Lux : Let There Be Light</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work10/detail1.jpg</image:loc>
+      <image:title>Fiat Lux : 빛이 있으라 / Fiat Lux : Let There Be Light — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/photo-booth-galaxy-z-flip6-unpacked/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/thumbnail.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/main.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/detail1.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/detail2.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/detail3.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/detail4.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work11/detail5.jpg</image:loc>
+      <image:title>Galaxy Z Flip6 언팩킹 Event / Photo Booth for the Galaxy Z Flip6 Unpacked Event — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/grow-me-with-your-voice/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/thumbnail.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/main.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail1.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail2.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail3.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail4.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail5.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work12/detail6.jpg</image:loc>
+      <image:title>푸룻푸룻프렌즈 과일우주여행 / Fruity-Fruity Friends: A Journey Through the Fruit Universe — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/harmonious-echo/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/thumbnail.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/main.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/detail1.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully! — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/detail2.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully! — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/detail3.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully! — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work13/detail4.jpg</image:loc>
+      <image:title>평화의 메아리 : 잘 살아 보세! / Harmonious Echo : Live Peacefully! — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/voicescape/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/thumbnail.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/main.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail1.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail2.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail3.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail4.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail5.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail6.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail7.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail8.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail9.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 9 / Detail image 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail10.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 10 / Detail image 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail11.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 11 / Detail image 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work14/detail12.jpg</image:loc>
+      <image:title>Voicescape : 목소리의 세상 / Voicescape : A World of Voices — 상세 이미지 12 / Detail image 12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/breath-into-waves/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/thumbnail.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/main.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail1.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail2.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail3.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail4.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail5.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail6.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail7.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work15/detail8.jpg</image:loc>
+      <image:title>숨결은 물결이 되어 / Breath into Waves — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/project-pieces/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/thumbnail.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/main.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail1.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail2.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail3.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail4.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail5.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work18/detail6.jpg</image:loc>
+      <image:title>조각들 프로젝트 / Project Pieces — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/mnemosyrium/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/thumbnail.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/main.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail1.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail2.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail3.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail4.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail5.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail6.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail7.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 7 / Detail image 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work19/detail8.jpg</image:loc>
+      <image:title>므네모리움 : 기억의 도서관 / Mnemosyrium : The Library of Memories — 상세 이미지 8 / Detail image 8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yeoneui.kim/works/starlit-wish/</loc>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/thumbnail.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/main.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail1.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 1 / Detail image 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail2.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 2 / Detail image 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail3.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 3 / Detail image 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail4.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 4 / Detail image 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail5.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 5 / Detail image 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://yeoneui.kim/assets/images/work21/detail6.jpg</image:loc>
+      <image:title>별빛소원 : 새로 이어지는 / Starlit Wish : Through Birds Anew — 상세 이미지 6 / Detail image 6</image:title>
+    </image:image>
+  </url>
+</urlset>

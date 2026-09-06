@@ -1,6 +1,7 @@
 [
   {
     "id": "work16",
+    "slug": "finding-banana-seeds",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "빠씨를 찾아서, 소닉프룻<br>Finding Banana Seeds",
@@ -15,6 +16,7 @@
   },
   {
     "id": "work17",
+    "slug": "juice-juice-play",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "쥬쥬베리 별별탐사대, 쥬스쥬스플레이<br>Juice Juice Play",
@@ -31,6 +33,7 @@
 
   {
     "id": "work20",
+    "slug": "groovy-grovey",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "숲속숲송 : Groovy Grovey<br>숲속숲송 : Groovy Grovey",
@@ -46,6 +49,7 @@
 
   {
     "id": "work22",
+    "slug": "sayin-strument",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "Sayin-strument<br>Sayin-strument",
@@ -60,6 +64,7 @@
   },
   {
     "id": "work0.04",
+    "slug": "vjing",
     "year": "2022",
     "분류": "실험 / Experiment",
     "title": "VJing",
@@ -74,6 +79,7 @@
   },
   {
     "id": "work0.01",
+    "slug": "sound-of-journey",
     "year": "2021",
     "분류": "실험 / Experiment",
     "title": "Sound of Journey 1, 2",
@@ -88,6 +94,7 @@
   },
   {
     "id": "work0.02",
+    "slug": "facin-strument",
     "year": "2022",
     "분류": "실험 / Experiment",
     "title": "Facetrument : Face+Instrument",
@@ -102,6 +109,7 @@
   },
   {
     "id": "work0.03",
+    "slug": "touchin-strument",
     "year": "2022",
     "분류": "실험 / Experiment",
     "title": "Touchin-strument",
@@ -117,6 +125,7 @@
 
   {
     "id": "work1",
+    "slug": "sejong-i-online-playground",
     "year": "2021",
     "분류": "상업 프로젝트 / Commercial",
     "title": "세종아이 온라인 놀이터<br>Sejong-I Online Playground",
@@ -131,6 +140,7 @@
   },
   {
     "id": "work2",
+    "slug": "vuja-de",
     "year": "2022",
     "분류": "전시 / Exhibition",
     "title": "Vuja de : 익숙한 무엇을 낯설게 하는 과정<br>Vuja de : The Process of Making the Familiar Strange",
@@ -145,6 +155,7 @@
   },
   {
     "id": "work3",
+    "slug": "moon-what-kind-of-moon",
     "year": "2022",
     "분류": "전시 / Exhibition",
     "title": "()달 : 달달 무슨 달?<br>()Moon: Moon Moon, What Kind of Moon?",
@@ -159,6 +170,7 @@
   },
   {
     "id": "work4",
+    "slug": "pulling-force",
     "year": "2022",
     "분류": "전시 / Exhibition",
     "title": "끌:력 서로가 서로를 이끄는 힘<br>Pulling Force",
@@ -174,6 +186,7 @@
 
   {
     "id": "work5",
+    "slug": "abyss",
     "year": "2022",
     "분류": "예술 협업 / Collaboration",
     "title": "ABYSS : 심연<br>ABYSS",
@@ -188,6 +201,7 @@
   },
   {
     "id": "work6",
+    "slug": "music-shower",
     "year": "2022",
     "분류": "전시 / Exhibition",
     "title": "뮤직샤워 : 빛과 음악으로 샤워하다<br>Music Shower : Showered in Light and Music",
@@ -202,6 +216,7 @@
   },
   {
     "id": "work7",
+    "slug": "the-wave-that-stirred-the-mind",
     "year": "2020, 2023",
     "분류": "전시 / Exhibition",
     "title": "마음에 일었던 파동<br>The Wave That Stirred the Mind",
@@ -216,6 +231,7 @@
   },
   {
     "id": "work8",
+    "slug": "my-dearest-wish",
     "year": "2023",
     "분류": "상업 프로젝트 / Commercial",
     "title": "롯데백화점 My Dearest Wish<br>Lotte Department store My Dearest Wish",
@@ -230,6 +246,7 @@
   },
   {
     "id": "work9",
+    "slug": "x-axis",
     "year": "2023",
     "분류": "예술 협업 / Collaboration",
     "title": "창작실험 X-Axis <br>Creative Experiment <X-Axis>",
@@ -244,10 +261,11 @@
   },
   {
     "id": "work10",
+    "slug": "fiat-lux",
     "year": "2023",
     "분류": "전시 / Exhibition",
-    "title": "Fiat Lux : 빛이 있으라<br>Fiat Lux : Let there be Light",
-    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 월, Voice Interative Wall</span><br>영등포 문화재단 예술가를 위한 융합의 기술",
+    "title": "Fiat Lux : 빛이 있으라<br>Fiat Lux : Let There Be Light",
+    "subtitle": "<span class=\"highlight\">보이스 인터랙티브 월, Voice Interactive Wall</span><br>영등포 문화재단 예술가를 위한 융합의 기술",
     "keyWords": "TouchDesigner, UE5 Meta Sound",
     "thumbnail": "../assets/images/work10/thumbnail.jpg",
     "mainVideo": "https://player.vimeo.com/video/930938749",
@@ -258,6 +276,7 @@
   },
   {
     "id": "work11",
+    "slug": "photo-booth-galaxy-z-flip6-unpacked",
     "year": "2024",
     "분류": "상업 프로젝트 / Commercial",
     "title": "Galaxy Z Flip6 언팩킹 Event<br>Photo Booth for the Galaxy Z Flip6 Unpacked Event",
@@ -275,6 +294,7 @@
 
   {
     "id": "work12",
+    "slug": "grow-me-with-your-voice",
     "year": "2024",
     "분류": "상업 프로젝트 / Commercial",
     "title": "푸룻푸룻프렌즈 과일우주여행<br>Fruity-Fruity Friends: A Journey Through the Fruit Universe",
@@ -289,6 +309,7 @@
   },
   {
     "id": "work13",
+    "slug": "harmonious-echo",
     "year": "2024",
     "분류": "전시 / Exhibition",
     "title": "평화의 메아리 : 잘 살아 보세!<br>Harmonious Echo : Live Peacefully!",
@@ -303,6 +324,7 @@
   },
   {
     "id": "work14",
+    "slug": "voicescape",
     "year": "2024",
     "분류": "전시 / Exhibition",
     "title": "Voicescape : 목소리의 세상<br>Voicescape : A World of Voices",
@@ -317,6 +339,7 @@
   },
   {
     "id": "work15",
+    "slug": "breath-into-waves",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "숨결은 물결이 되어<br>Breath into Waves",
@@ -331,6 +354,7 @@
   },
   {
     "id": "work18",
+    "slug": "project-pieces",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "조각들 프로젝트<br>Project Pieces",
@@ -345,6 +369,7 @@
   },
   {
     "id": "work19",
+    "slug": "mnemosyrium",
     "year": "2025",
     "분류": "예술 협업 / Collaboration",
     "title": "므네모리움 : 기억의 도서관<br>Mnemosyrium : The Library of Memories",
@@ -359,6 +384,7 @@
   },
   {
     "id": "work21",
+    "slug": "starlit-wish",
     "year": "2025",
     "분류": "전시 / Exhibition",
     "title": "별빛소원 : 새로 이어지는<br>Starlit Wish : Through Birds Anew",
