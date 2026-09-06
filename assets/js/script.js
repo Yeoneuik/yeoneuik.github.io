@@ -171,7 +171,7 @@ function renderWorks(works) {
                     <img src="${work.thumbnail}" 
                          alt="${work.title} Thumbnail"
                          class="work-thumbnail">
-                    <img src="${work.thumbnail.replace('.jpg', '2.jpg')}"
+                    <img src="${work.hoverThumbnail || deriveHoverThumbnail(work.thumbnail)}"
                          alt="${work.title} Hover Thumbnail"
                          class="work-thumbnail hover-img">
                 </div>
@@ -194,6 +194,16 @@ function renderWorks(works) {
             hoverImg.style.opacity = "0"; // 부드럽게 사라짐
         });
     });
+}
+
+// 명시된 hoverThumbnail이 없는 기존 데이터는 thumbnail과 같은 확장자로
+// thumbnail2 파일을 찾는다. 예: thumbnail.jpg -> thumbnail2.jpg
+function deriveHoverThumbnail(thumbnailPath) {
+    const match = thumbnailPath.match(/^(.*?)(\.[^./?#]+)([?#].*)?$/);
+    if (!match) {
+        return `${thumbnailPath}2`;
+    }
+    return `${match[1]}2${match[2]}${match[3] || ""}`;
 }
 
 
@@ -245,11 +255,11 @@ function renderWorkDetail(work) {
         <div class="work-detail"></div>
     `;
 
-    appendDetailImages(work.id); // detail 이미지 추가
+    appendDetailImages(work); // detail 이미지 추가
 }
 
 // detail 이미지를 추가하는 함수
-function appendDetailImages(workId) {
+function appendDetailImages(work) {
     const workDetailContainer = document.querySelector(".work-detail");
 
     if (!workDetailContainer) {
@@ -257,8 +267,23 @@ function appendDetailImages(workId) {
         return;
     }
 
-    // detail 이미지가 저장된 폴더 경로
-    const detailFolderPath = `../assets/images/${workId}/`;
+    // 새 데이터는 JSON의 경로와 확장자를 그대로 사용한다.
+    // 빈 배열은 상세 이미지를 표시하지 않겠다는 명시적인 선택이다.
+    if (Array.isArray(work.detailImages)) {
+        work.detailImages
+            .filter(imagePath => typeof imagePath === "string" && imagePath.trim() !== "")
+            .forEach((imagePath, index) => {
+                workDetailContainer.insertAdjacentHTML("beforeend", `
+                    <div class="media-container">
+                        <img src="${imagePath}" alt="Detail Image ${index + 1}" class="media-item detail-image">
+                    </div>
+                `);
+            });
+        return;
+    }
+
+    // 기존 데이터는 detail1.jpg부터 번호가 끊길 때까지 찾는 방식을 유지한다.
+    const detailFolderPath = `../assets/images/${work.id}/`;
 
     // detail 이미지 개수를 추정하여 동적으로 생성
     let imageIndex = 1; // detail1.jpg부터 시작
